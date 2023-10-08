@@ -1,0 +1,59 @@
+body{
+    text-align: center;
+}
+
+#create-post-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+    width: 60%;
+}
+input {
+    font-size: 20px;
+    border: none;
+    border-bottom: 1px solid gray;
+    height: 57px;
+}
+input::placeholder{
+    white-space: pre-wrap;
+}
+#post-title {
+    width: 27%;
+}
+#post-body {
+    width: 42%;
+}
+button {
+    width: 25%;
+    background-color: rgb(194, 38, 38);
+    color: white;
+    font-size: 20px;
+    height: 57px;
+}
+.empty-input-message{
+    width: 100%;
+    text-align: left;
+    color: rgb(194, 38, 38);
+    margin-top: 5px;
+    font-size: 16px;
+}
+
+.post-conteiner{
+    width: 65%;
+    margin: auto;
+}
+.post {
+    margin: 10px 0;
+    text-align: left;
+    border: 1px solid gray;
+    padding: 2px 0 3px 10px;
+}
+h2{
+    margin: 0;
+    color: red;
+    margin-bottom: 9px;
+}
+p{
+    margin: 0;
+}

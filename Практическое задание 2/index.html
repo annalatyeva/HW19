@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="styles/normalize.css" />
+		<link rel="stylesheet" href="styles/style.css" />
+		<title>Блог</title>
+	</head>
+	<body>
+		<h1>Новый пост</h1>
+		<form id="create-post-form">
+			<input type="text" name="post-title" id="post-title" placeholder="Заголовок поста" />
+			<input type="text" name="post-body" id="post-body" placeholder="Текст поста" />
+			<button type="button" id="create-post-button">Создать пост</button>
+			<div class="empty-input-message"></div>
+		</form>
+		<div class="post-conteiner"></div>
+		<script src="script.js"></script>
+	</body>
+</html>
